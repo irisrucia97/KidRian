@@ -43,46 +43,6 @@ body{
     height: 30px;
 	background-color: #32439F;
 }
-.child {
 
-}
 
-.community_wrap{
-	float:left; width:100%; height:1056px; background:#32435F center top no-repeat;
-	display:flex; flex-direction: column; flex-wrap:nowrap; align-content: center; justify-content: center;
-}
-.community_inner{width:100%; height:100%; margin:0 auto;}
-.community{  float:left; margin-top:99px;}
-.cm_wrap_title{ left:445px; top:2px; line-height: 20px; margin: auto;}
-.community ul{ float:left; margin-top:89px; margin-left:39px;}
-.community ul li{position:relative; float:left; width:279px; height:370px;}
-.main_cm_list{float:left;}
-.main_cm_list li{float:left; margin-left:28px;}
-.main_cm_list li .cm_wr_info dl{margin-left:23px; width:233px;}
-.main_cm_list li.cm_text_wrap .cm_wr_info dl{margin-left:31px; width:225px;}
-.main_cm_list li:first-child{margin-left:0;}
-.cm_text_wrap{width:100%; height:100%; background:#32435F left top no-repeat;}
-.cm_title{width:100%; height:127px; float:left;}
-.cm_title span{width:220px; float:left; margin-top:48px; color:#5897dc; margin-left:31px; font-size:13px;}
-.cm_title h2{font-size:18px; float:left; margin-top:2px; line-height:30px; width:220px; margin-left:31px; font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; height:43px;}
-.cm_title h2 a{color:#333;}
-.cm2_title{width:100%; height:72px; float:left;}
-.cm2_title span{width:220px; float:left; margin-top:17px; color:#5897dc; margin-left:21px; font-size:13px;}
-.cm2_title h2{font-size:18px; float:left; margin-top:6px; line-height:1; width:220px; margin-left:23px; font-weight:bold;}
-.cm2_title h2 a{color:#333;}
-.cm_con{width:100%; float:left; height:199px; overflow:hidden;}
-.cm_con p{width:220px; float:left; margin-top:2px; margin-left:31px; word-break:break-all; color:#666; font-size:13px; line-height:23px; height:161px; overflow:hidden;}
-.cm_con p a{color:#666;}
-.cm_wr_info{height:44px; width:100%; float:left;}
-.cm_wr_info dl{width:220px; float:left; margin-top:9px;}
-.cm_wr_info dl dt{float:left;}
-.cm_wr_info dl dd{float:left;}
-.community_char_id{float:left; margin-left:5px; font-size:13px;}
-.community_char_id a{color:#888;}
-.cm_wr_info dl dd.community_date{float:right; font-size:13px; color:#888;}
-.cm_img_wrap{position:relative; width:100%; float:left; height:255px; background-color:#fff;}
-.cm_img_wrap img{width:100%; float:left; height:100%;}
-.cm_radius_left{position:absolute; top:0px; left:0px;}
-.cm_radius_right{position:absolute; top:0px; right:0px;}
-.cm_img_con{width:100%; float:left; height:115px; background:url("https://ssl.nx.com/s2/game/maplestory/renewal/common/cm_bottom_bg.png") no-repeat;}
-.community_more{position:absolute; top:3px; right:42px;}
+
