@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=chrome'>
+    <title>박보영</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/boyoung.css">
+	<link rel="stylesheet" href="css/lightslider.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap&subset=korean" rel="stylesheet">
+	
+</head>
+<body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/lightslider.js"></script>	
+	<!-- 네비바 -->
+        <header>
+			<nav>
+				<ul class='nav-container'>
+					<li class='nav-brand'>박보영</li>
+					<li class='nav-item'>공지사항</li>
+					<li class='nav-item'>소개</li>
+					<li class='nav-item'>게시판</li>
+					<li class='nav-item'>고객지원</li>
+				</ul>
+				<div class='loginbutton'><a href="login.html">로그인</a></div>
+			</nav>
+        </header>
+    <!-- 이미지 슬라이드 -->
+	<section>
+		<div class="slide-wrap">
+        	<div class="slide-content">
+            	<ul id="content-slider" class="slider">
+                	<li>
+                    	<img src="img/img1.jpg">
+                	</li>
+                	<li>
+                	    <img src="img/img2.jpg">
+                	</li>
+                	<li>
+                	    <img src="img/img3.jpg">
+               		</li>
+                	<li>
+                   	 	<img src="img/img4.jpg">
+                	</li>
+                	<li>
+                    	<img src="img/img5.jpg">
+                	</li>
+					<li>
+                    	<img src="img/img5.jpg">
+                	</li>
+            	</ul>
+   	    	</div>
+    	</div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    var autoplaySlider = $('#content-slider').lightSlider({
+        auto:true,
+        loop:true,
+		item:1,
+		speed:1500,
+		pause:2500,
+		pager:false
+		
+   	 });
+	});
+	</script>
+	</section>
+	
+	<section id="community">
+		<div class="com_wapper">
+			<div class="com_logo">
+				커뮤니티
+			</div>
+			<div class="com_list_wapper">
+				<div>
+					<div class="">
+						게시판1
+					</div>
+					<div>
+						게시판2
+					</div>
+					<div>
+						게시판3
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+</body>
+</html>
