@@ -8,7 +8,7 @@
 <?php
 echo "MySql 연결 테스트<br>";
  
-$db = mysqli_connect("localhost", "root", "irisrucia97", "kidrian","59789");
+$db = mysqli_connect("203.250.133.87", "s1920", "1920", "s1920_db");
  
 if($db){
     echo "connect : 성공<br>";

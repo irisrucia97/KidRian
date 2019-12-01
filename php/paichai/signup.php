@@ -17,7 +17,7 @@ if($id==NULL || $pw==NULL || $name==NULL || $email==NULL) //빈칸 체크
     exit();
 }
  
-$db=mysqli_connect("localhost","root","irisrucia97","kidrian");
+$db=mysqli_connect("203.250.133.87", "s1920", "1920", "s1920_db");
  
 $check="SELECT * from user_info WHERE userid=$id";
 $result=mysqli_query($db,$check);
@@ -32,6 +32,6 @@ if($result)
 $sigup_result = mysqli_query($db,"INSERT INTO user_info(userid,userpw,name,email)
 VALUES ('$id','$pw','$name','$email')");
 
-
+header('Location: ./index.html');
  
 ?>

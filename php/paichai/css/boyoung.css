@@ -43,6 +43,43 @@ body{
     height: 30px;
 	background-color: #32439F;
 }
+a {text-decoration: none; color: white;}
+
+.loginbutton{
+	position:absolute;
+	top: 26px;
+	left:50%;
+	margin-left:450px;
+	width: auto;
+	height:6px;
+	font-size: 1rem; 
+	font-weight: bold;
+	color: white;
+}
+
+#community{
+	background: #1D3D72;
+}
+
+.com_wapper{
+	display: flex;
+	flex-direction: column;
+	width:640px;
+	height:400px;
+	margin-left: 50%;
+	margin: auto;
+	background: #5D2D72;;
+}
+
+.com_logo{
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+.com_list_wapper{
+
+}
+
 
 
 
